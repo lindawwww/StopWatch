@@ -1,0 +1,46 @@
+body{
+  font-family: 'Courier New', sans-serif;
+  font-size: 30px;
+  background: #eee;
+}
+.container{
+  margin: 20px auto;/*outside space, clockwise rotation*/
+  width: 365px;
+  background: #fff;
+  padding: 15px;
+  text-align: center;
+}
+#timer{
+  background: #ddd;
+  height: 120px;/*setting this section's height*/
+  line-height: 120px;/*setting a row's height*/
+  font-size: 40px;
+  margin-bottom: 15Px;
+}
+.controls > div{
+  cursor: pointer;
+  user-select: none;
+  float: left;
+  background: #ddd;
+  height: 45px;
+  line-height: 45px;
+  font-size: 20px;
+}
+#start{
+  width: 175px;
+}
+#stop{
+  width: 160px;
+}
+#reset{
+  width: 175px;
+}
+.controls > div+div{
+  margin-left: 15px;
+}
+.controls{
+  overflow: hidden;
+}
+.controls > div:hover{
+  opacity: 0.7;
+}
